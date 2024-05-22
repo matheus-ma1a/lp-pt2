@@ -21,7 +21,7 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
-                    <a className={styles.buttonObg} href="">FAÇA PARTE</a>
+                    <a className={styles.buttonObg} href="https://devzapp.com.br/api-engennier/campanha/api/redirect/66293b4e230a9c00011b2fd2">FAÇA PARTE</a>
                 </div>
             </div>
         </>
