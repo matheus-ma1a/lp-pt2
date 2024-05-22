@@ -1,11 +1,10 @@
-import styles from "@/styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import { useState } from "react";
 
 
 export default function Home() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
-
 
   function cadastroMailbiz(e) {
     e.preventDefault();
