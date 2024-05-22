@@ -1,11 +1,18 @@
 import styles from "../styles/Home.module.css";
+import Pixel from '../components/pixel/facebook/pixel-1'
+import { useEffect } from "react";
 
 
 
 export default function Home() {
 
+    useEffect(() => {
+        fbq('track', 'Lead');
+    }, [])
+
     return (
         <>
+            <Pixel name='FACEBOOK_PIXEL_1' />
             <div className={styles.main}>
 
                 <div className={styles.wapper}>
